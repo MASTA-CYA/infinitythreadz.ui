@@ -1,0 +1,60 @@
+name: infinity_threadz
+description: "Infinity Threadz: where passion meets fashion. A Flutter demo of an online clothing store."
+publish_to: 'none'
+
+version: 1.1.0+2
+
+environment:
+  sdk: ^3.9.0
+  flutter: ">=3.35.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  animated_theme_switcher: ^2.0.8
+  camera: ^0.11.0
+  cupertino_icons: ^1.0.8
+  email_validator: ^3.0.0
+  intl: ^0.20.2
+  shared_preferences: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.14.1
+  flutter_lints: ^5.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/yarn-launcher-1.png"
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "assets/images/yarn-launcher-1.png"
+    background_color: "#FFFFFF"
+    theme_color: "#0191DA"
+  windows:
+    generate: true
+    image_path: "assets/images/yarn-launcher-1.png"
+    icon_size: 48
+  macos:
+    generate: true
+    image_path: "assets/images/yarn-launcher-1.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Galada
+      fonts:
+        - asset: fonts/Galada-Regular.ttf
+    - family: Hind Guntur
+      fonts:
+        - asset: fonts/HindGuntur-SemiBold.ttf

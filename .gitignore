@@ -1,0 +1,12 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor settings
+.vscode/
+.idea/
+*.iml
+
+# Zipped copies of the folders already in Design/
+Design/**/*.zip

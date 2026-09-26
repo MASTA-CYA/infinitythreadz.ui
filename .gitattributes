@@ -1,0 +1,12 @@
+# Normalise line endings in the repository
+* text=auto
+
+*.png binary
+*.jpg binary
+*.ico binary
+*.ttf binary
+*.otf binary
+*.pdf binary
+*.eps binary
+*.zip binary
+*.jar binary
