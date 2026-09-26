@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Design/logo-package-dark/png/logo-color.png" alt="Infinity Threadz logo" width="180">
+  <img src="Design/logo-package/png/logo-color.png" alt="Infinity Threadz logo" width="180">
 </p>
 
 <h1 align="center">Infinity Threadz</h1>
@@ -48,7 +48,12 @@ The app is a **front-end showcase**. It runs on sample data with no backend, so 
   </tr>
   <tr>
     <td align="center"><img src="docs/screenshots/profile.jpg" width="220" alt="Profile screen"><br><sub>Profile</sub></td>
+    <td align="center"><img src="docs/screenshots/profile-edit.jpg" width="220" alt="Edit profile form"><br><sub>Edit profile</sub></td>
+    <td align="center"><img src="docs/screenshots/profile-camera.jpg" width="220" alt="Camera screen for a new profile photo"><br><sub>Take a profile photo</sub></td>
+  </tr>
+  <tr>
     <td align="center"><img src="docs/screenshots/report-issue.jpg" width="220" alt="Report an issue form"><br><sub>Report an issue</sub></td>
+    <td></td>
     <td></td>
   </tr>
 </table>
@@ -60,7 +65,7 @@ The app is a **front-end showcase**. It runs on sample data with no backend, so 
 - **Wishlist and cart**: remove items, change quantities and see line subtotals and a running total. "Clear Cart" empties the cart.
 - **Orders**: order history with status icons and a status filter, order details (order, payment, items and delivery sections that fold away) and a step-by-step tracking timeline.
 - **Wallet**: swipeable account cards, recent transactions and monthly statements.
-- **Profile**: order, voucher and loyalty-point stats, an edit form with validation, and a profile photo taken with the device camera.
+- **Profile**: order, voucher and loyalty-point stats, and an edit screen where you update your name, email, phone and bio (with validation) and take a new profile photo with the device camera.
 - **Report an issue**: pick a category (performance, error, crash or enhancement), describe the problem and submit.
 - **Light and dark themes** that switch with an animated circular reveal on every screen.
 
